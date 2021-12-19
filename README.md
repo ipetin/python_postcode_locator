@@ -12,7 +12,9 @@ https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 -export.txt contains the found postcodes
 
 RUN COMMAND: 
+
 cd python_postcode_locator
+
 python findpostcode.py
 
 
