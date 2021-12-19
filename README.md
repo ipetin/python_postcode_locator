@@ -14,4 +14,8 @@ https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 RUN COMMAND: 
 cd python_postcode_locator
 python findpostcode.py
+
+
+
+
 ![Screenshot](https://github.com/ipetin/python_postcode_locator/blob/main/screenshot.jpg)
