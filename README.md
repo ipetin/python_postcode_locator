@@ -6,9 +6,11 @@ Exports postcodes with their geoposition to export.txt
 HOW TO INSTALL:
 Download UK Postcode .zip and extract ukpostcodes.csv it to python_postcode_locator root folder. 
 This .csv will act as your database. Ideally you'll have a cached database to make searching faster.
+
 https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 
 -import.json contains postcode lists you want to find.
+
 -export.txt contains the found postcodes
 
 RUN COMMAND: 
