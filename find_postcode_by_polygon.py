@@ -38,12 +38,15 @@ def main():
             lat = float(row["latitude"])
             lon = float(row["longitude"])
 
-            if round(lat,2)!=51.79:
+
+#TODO: Remove this ugly hack to save time and memory
+            if round(lat,2)!=51.79 and round(lat,2)!=51.78 and round(lat,2)!=51.80:
                 ignored=ignored+1
                 continue
-            if round(lon,2)!=-0.19 and round(lon,2)!=-0.20:
+            if round(lon,2)!=-0.19 and round(lon,2)!=-0.20 and round(lon,2)!=-0.18 and round(lon,2)!=-0.21 :
                 ignored=ignored+1
                 continue  
+                
           # $# import pdb; pdb.set_trace()
             point = Feature(geometry=Point((lat,lon)))
             points_list.append(point)
@@ -97,7 +100,10 @@ def main():
                                 export.write(row["postcode"]+ ' located at ' + str(lat)+":"+str(lon)+"\n") 
                                 export.close() #to change file access mode
                                 print('> ',row["postcode"],' lanlon:',str(lat),'',str(lon))
-
+                                
+                # if(_last_loaded+0.002<round(_loaded/saved,3)):
+                #    _last_loaded = round(_loaded/saved,3)
+                #    print("postcodes search "+str(round(_loaded/lines,3))+"%", found,"postcodes found")
             csv_file.close()   
 
 
