@@ -1,5 +1,5 @@
 # python_postcode_locator
-Get all postcodes from Latitude and Longitude in UK from import.json, OFFLINE.  
+Get all postcodes within polygon made from Latitude and Longitude list in UK from import.json, OFFLINE, no API used.  
 Exports postcodes with their geoposition to export.txt
 
 
