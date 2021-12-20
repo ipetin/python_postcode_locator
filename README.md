@@ -11,6 +11,12 @@ https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 
 -import.json contains postcode lists you want to find. Be sure that the last polygon coords end with the starting one as it has to lock connect
 
+this is the polygon used in the example import.json provided
+
+
+![Screenshot](https://github.com/ipetin/python_postcode_locator/blob/main/screenshot2.jpg)
+
+
 -export.txt contains the found postcodes
 
 RUN COMMAND TO FIND WITHIN POLYGON: 
