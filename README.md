@@ -9,17 +9,26 @@ This .csv will act as your database. Ideally you'll have a cached database to ma
 
 https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 
--import.json contains postcode lists you want to find.
+-import.json contains postcode lists you want to find. Be sure that the last polygon coords end with the starting one as it has to lock connect
 
 -export.txt contains the found postcodes
 
 RUN COMMAND: 
 
-cd python_postcode_locator
+python find_postcode_within_polygon.py
+
+This will search for all postcodes within the polygon region specified in import.json
+
+
+RUN COMMAND: 
 
 python findpostcode.py
 
 
+The output will be in export.txt
 
 
 ![Screenshot](https://github.com/ipetin/python_postcode_locator/blob/main/screenshot.jpg)
+
+
+
