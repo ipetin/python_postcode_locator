@@ -13,14 +13,14 @@ https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 
 -export.txt contains the found postcodes
 
-RUN COMMAND: 
+RUN COMMAND TO FIND WITHIN POLYGON: 
 
 python find_postcode_within_polygon.py
 
 This will search for all postcodes within the polygon region specified in import.json
 
 
-RUN COMMAND: 
+RUN COMMAND TO FIND POSTCODES CONNECTED TO THE ROAD (Polygon boarders): 
 
 python findpostcode.py
 
