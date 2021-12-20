@@ -20,7 +20,7 @@ python find_postcode_within_polygon.py
 This will search for all postcodes within the polygon region specified in import.json
 
 
-RUN COMMAND TO FIND POSTCODES CONNECTED TO THE ROAD (Polygon boarders): 
+RUN COMMAND TO FIND POSTCODES CONNECTED TO THE ROAD (10-100m) (Polygon boarders): 
 
 python findpostcode.py
 
