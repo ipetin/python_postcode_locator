@@ -9,6 +9,8 @@ This .csv will act as your database. Ideally you'll have a cached database to ma
 
 https://www.freemaptools.com/download/full-uk-postcodes/ukpostcodes.zip
 
+i suggest, openning the .csv and breaking it into 3-4 files as it will take a long time and do this multiple times on smaller .csv files.
+
 -import.json contains postcode lists you want to find. Be sure that the last polygon coords end with the starting one as it has to lock connect
 
 this is the polygon used in the example import.json provided
