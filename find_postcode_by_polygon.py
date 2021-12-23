@@ -8,9 +8,7 @@ import csv
 import json
 from geojson import Feature, FeatureCollection, Point, Polygon
 from turfpy.measurement import points_within_polygon
-from ipyleaflet import Map, GeoJSON
 
-from multiprocessing.managers import BaseManager
 
 def main():
     csvdb="ukpostcodes_full.csv"
